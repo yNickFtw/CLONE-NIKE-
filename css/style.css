@@ -1,0 +1,175 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-link:hover {
+    padding: 10px 0px;
+    border-bottom: 2px solid #000;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+}
+
+.icon-tabler-shopping-cart {
+    margin-left: 30px;
+}
+
+.icon-tabler-shopping-cart:hover {
+    background-color: gray;
+    border-radius: 30px;   
+}
+
+input[type=search] {
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 1360px;
+    height: 765px;
+}
+
+.ad01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ad {
+    width: 1360px;
+}
+
+.buttons-ad {
+    width: 138px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.buttons-ad:hover{
+    cursor: pointer;
+    background-color: rgb(47, 47, 47);
+}
+
+.img-ad {
+    width: 1360px;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-img {
+    width: 334px;
+    height: 436.2px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.father-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-items-2 {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card-img-2 {
+    width: 334px;
+    height: 462px;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.father-footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1280px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: normal;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+.father-icon {
+    display: flex;
+}
+
+.ti-brand-facebook, .ti-brand-instagram, .ti-brand-youtube {
+    color: #fff;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.ti-brand-facebook:hover, .ti-brand-instagram:hover, .ti-brand-youtube:hover {
+    background-color: gray;
+    border-radius: 50px;
+}
