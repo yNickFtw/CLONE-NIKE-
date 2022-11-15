@@ -195,7 +195,8 @@ a:hover {
 .ti-brand-facebook, .ti-brand-instagram, .ti-brand-youtube {
     color: #fff;
     font-size: 20px;
-    padding: 15px;
+    padding: 5px;
+    margin: 10px;
     background-color: gray;
     border-radius: 50px;
 }
