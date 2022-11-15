@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -88,6 +92,7 @@ video {
 
 #ad {
     width: 1360px;
+    margin: -10px;
 }
 
 .buttons-ad {
@@ -107,6 +112,7 @@ video {
 
 .img-ad {
     width: 1360px;
+    cursor: pointer;
 }
 
 .cards {
@@ -166,6 +172,7 @@ footer {
 h2, h3, h4, h5, h6 {
     color: #fff;
     font-weight: normal;
+    margin: 8px;
 }
 
 a {
@@ -179,6 +186,10 @@ a:hover {
 
 .father-icon {
     display: flex;
+}
+
+.icons {
+    margin-top: 10px;
 }
 
 .ti-brand-facebook, .ti-brand-instagram, .ti-brand-youtube {
@@ -215,4 +226,16 @@ hr {
 #graycolor {
     width: 500px;
     color: gray;
+}
+
+.button-top {
+    color: gray;
+    border-radius: 50px;
+    position: fixed;
+    top: 750px;
+    left: 1700px;
+}
+
+.button-top:hover {
+    color: rgb(34, 34, 34);
 }
